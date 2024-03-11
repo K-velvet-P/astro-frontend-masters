@@ -1,11 +1,6 @@
 ---
-layout: ../layouts/default.astro
+layout: ../layouts/page.astro
 ---
-
-
-
-
-
 
 # About sndwch
 

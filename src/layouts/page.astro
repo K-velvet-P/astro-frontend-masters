@@ -1,0 +1,9 @@
+---
+import Layout from '../layouts/default.astro';
+---
+<!-- this is a nested layout, taking the default layout (default.astro) and nesting inside it a new page layout with the css of class="block page"-->
+<Layout>
+	<section class="block page">
+        <!-- slot is now which everpage is using page.layout for its layout eg the about page -->
+		<slot /> 
+</Layout>
